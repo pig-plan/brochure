@@ -196,7 +196,219 @@
 	// Magnific Popup
 
 	var magnifPopup = function() {
-		$('#popup-1').magnificPopup({
+		$('#popup-feature-1').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-feature-2').magnificPopup({
+			items: [
+				{
+					src: '//player.vimeo.com/video/188103849',
+					type: 'iframe'
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-feature-3').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-feature-4').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-gallery-1').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-gallery-2').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-gallery-3').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-gallery-4').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-gallery-5').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-gallery-6').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-gallery-7').magnificPopup({
+			items: [
+				{
+					src: 'images/samples/ch4_bluewater1.jpg',
+					title: '설명하는 부분1',
+				},
+				{
+					src: 'images/samples/ch4_caution.jpg',
+					title: '설명하는 부분2',
+				},
+				{
+					src: 'images/samples/ch4_church.jpg',
+					title: '설명하는 부분3',
+				}
+			],
+			type: 'image',
+			gallery:{
+				enabled:true
+			}
+		});
+		$('#popup-gallery-8').magnificPopup({
 			items: [
 				{
 					src: 'images/samples/ch4_bluewater1.jpg',
@@ -217,91 +429,6 @@
 			}
 		});
 
-		$('#popup-2').magnificPopup({
-			items: [
-				{
-					src: 'images/samples/ch4_bluewater1.jpg'
-				},
-				{
-					src: 'images/samples/ch4_caution.jpg'
-				},
-				{
-					src: '//player.vimeo.com/video/188103849',
-					type: 'iframe'
-				}
-			],
-			type: 'image',
-			gallery:{
-				enabled:true
-			}
-		});
-
-		$('#popup-3').magnificPopup({
-			items: [
-				{
-					src: 'images/samples/ch4_bluewater1.jpg'
-				},
-				{
-					src: 'images/samples/ch4_caution.jpg'
-				},
-				{
-					src: 'images/samples/ch4_church.jpg'
-				}
-			],
-			type: 'image',
-			removalDelay: 300,
-			mainClass: 'mfp-with-zoom',
-			titleSrc: '타이틀입니다.',
-			gallery:{
-				enabled:true
-			}
-		});
-
-		$('#popup-4').magnificPopup({
-			items: [
-				{
-					src: 'images/samples/ch4_bluewater1.jpg'
-				},
-				{
-					src: 'images/samples/ch4_caution.jpg'
-				},
-				{
-					src: 'images/samples/ch4_church.jpg'
-				}
-			],
-			type: 'image',
-			removalDelay: 300,
-			mainClass: 'mfp-with-zoom',
-			titleSrc: '타이틀입니다.',
-			gallery:{
-				enabled:true
-			}
-		});
-
-		$('.image-popup').magnificPopup({
-			type: 'image',
-			removalDelay: 300,
-			mainClass: 'mfp-with-zoom',
-			titleSrc: 'title',
-			gallery:{
-				enabled:true
-			},
-			zoom: {
-				enabled: true, // By default it's false, so don't forget to enable it
-
-				duration: 300, // duration of the effect, in milliseconds
-				easing: 'ease-in-out', // CSS transition easing function
-
-				// The "opener" function should return the element from which popup will be zoomed in
-				// and to which popup will be scaled down
-				// By defailt it looks for an image tag:
-				opener: function(openerElement) {
-				// openerElement is the element on which popup was initialized, in this case its <a> tag
-				// you don't need to add "opener" option if this code matches your needs, it's defailt one.
-				return openerElement.is('img') ? openerElement : openerElement.find('img');
-				}
-			}
-		});
 	};
 
 
