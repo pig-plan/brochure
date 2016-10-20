@@ -235,7 +235,7 @@
 					src: 'images/samples/ch4_caution.jpg'
 				},
 				{
-					src: 'http://www.youtube.com/embed/NCp6Rcr-im8',
+					src: '//www.youtube.com/embed/NCp6Rcr-im8',
 					type: 'iframe'
 				}
 			],
