@@ -193,15 +193,6 @@
 		});
 	};
 
-	// Fancybox
-
-	// var fancybox = function() {
-	// 	$('.fancybox').fancybox({
-	//
-	// 	});
-	// };
-
-
 	// Magnific Popup
 
 	var magnifPopup = function() {
@@ -235,27 +226,14 @@
 					src: 'images/samples/ch4_caution.jpg'
 				},
 				{
-					src: '//www.youtube.com/embed/NCp6Rcr-im8',
+					src: '//player.vimeo.com/video/188103849',
 					type: 'iframe'
 				}
 			],
 			type: 'image',
-			// removalDelay: 300,
-			// mainClass: 'mfp-with-zoom',
-			// titleSrc: '타이틀입니다.',
 			gallery:{
 				enabled:true
 			}
-		});
-
-		$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-			disableOn: 700,
-			type: 'iframe',
-			mainClass: 'mfp-fade',
-			removalDelay: 160,
-			preloader: false,
-
-			fixedContentPos: false
 		});
 
 		$('#popup-3').magnificPopup({
