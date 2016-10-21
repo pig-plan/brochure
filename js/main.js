@@ -239,8 +239,8 @@
 					title: '설명하는 부분2',
 				},
 				{
-					src: 'images/samples/ch4_church.jpg',
-					title: '설명하는 부분3',
+					src: '//player.vimeo.com/video/188103849',
+					type: 'iframe'
 				}
 			],
 			type: 'image',
@@ -426,6 +426,30 @@
 			type: 'image',
 			gallery:{
 				enabled:true
+			}
+		});
+		$('#price-popup-1').magnificPopup({
+			items: {
+				src: '<div class="white-popup">가격 옵션 1에 대한 설명</div>',
+				type: 'inline'
+			}
+		});
+		$('#price-popup-2').magnificPopup({
+			items: {
+				src: '<div class="white-popup">가격 옵션 2에 대한 설명</div>',
+				type: 'inline'
+			}
+		});
+		$('#price-popup-3').magnificPopup({
+			items: {
+				src: '<div class="white-popup">가격 옵션 3에 대한 설명</div>',
+				type: 'inline'
+			}
+		});
+		$('#price-popup-4').magnificPopup({
+			items: {
+				src: '<div class="white-popup">가격 옵션 4에 대한 설명</div>',
+				type: 'inline'
 			}
 		});
 
