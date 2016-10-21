@@ -1,6 +1,8 @@
 img.mfp-img {
+  width: 100%;
   max-width: 860px;
 }
+
 .white-popup {
   position: relative;
   background: #FFF;
@@ -8,4 +10,49 @@ img.mfp-img {
   width: auto;
   max-width: 500px;
   margin: 20px auto;
+}
+
+#fh5co-features-22 .fh5co-text-wrap {
+  margin-top: 5em;
+}
+@media screen and (max-width: 1200px) {
+  #fh5co-features-22 .fh5co-text-wrap {
+    margin-top: 0em;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fh5co-features-22 .fh5co-text-wrap {
+    margin-top: 0em;
+  }
+}
+#fh5co-features-22 .fh5co-text-wrap .fh5co-text {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-features-22 .fh5co-text-wrap .fh5co-text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+#fh5co-features-22 .fh5co-icon {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 20px;
+}
+#fh5co-features-22 .fh5co-icon i {
+  color: #4fd2c2;
+}
+@media screen and (max-width: 992px) {
+  #fh5co-features-22 .fh5co-image {
+    margin-top: 30px;
+  }
+}
+#fh5co-features-22 .fh5co-image img {
+  max-width: 100%;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-features-22 .fh5co-image img {
+    max-width: 100%;
+  }
 }

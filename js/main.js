@@ -200,7 +200,7 @@
 			items: [
 				{
 					src: 'images/samples/ch4_bluewater1.jpg',
-					title: '설명하는 부분1',
+					title: '설명하는 부분1'
 				},
 				{
 					src: 'images/samples/ch4_caution.jpg',
@@ -609,6 +609,48 @@
 		}
 	};
 
+	var features22AnimateTitle = function() {
+		if ( $('#fh5co-features-22').length > 0 ) {
+			$('#fh5co-features-22 .to-animate').each(function( k ) {
+
+				var el = $(this);
+
+				setTimeout ( function () {
+					el.addClass('fadeIn animated');
+				},  k * 200, 'easeInOutExpo' );
+
+			});
+		}
+	};
+	var features22WayPoint = function() {
+		if ( $('#fh5co-features-22').length > 0 ) {
+			$('#fh5co-features-22').waypoint( function( direction ) {
+
+				if( direction === 'down' && !$(this).hasClass('animated') ) {
+
+
+					setTimeout(features22AnimateTitle, 100);
+
+					setTimeout(function(){
+						$('.features-2-animate-22').addClass('fadeInUp animated');
+					}, 800);
+
+					setTimeout(function(){
+						$('.features-2-animate-33').addClass('fadeInRight animated');
+						$('.features-2-animate-55').addClass('fadeInLeft animated');
+					}, 1200);
+					setTimeout(function(){
+						$('.features-2-animate-44').addClass('fadeInRight animated');
+						$('.features-2-animate-66').addClass('fadeInLeft animated');
+					}, 1400);
+
+
+					$(this.element).addClass('animated');
+
+				}
+			} , { offset: '75%' } );
+		}
+	};
 
 	var counterWayPoint = function() {
 		if ( $('#fh5co-counter').length > 0 ) {
@@ -895,9 +937,10 @@
 		clientWayPoint();
 		featuresWayPoint();
 		features2WayPoint();
+		features22WayPoint();
+		features3WayPoint();
 		counterWayPoint();
 		productsWayPoint();
-		features3WayPoint();
 		ctaWayPoint();
 		pricingWayPoint();
 		faqsWayPoint();
